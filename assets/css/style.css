@@ -1,0 +1,602 @@
+@import url("../fontawesome/css/all.css");
+
+*{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.help{
+    background-color: #201848;
+}
+
+.help .icon{
+    color: white;
+}
+
+.help a{
+    text-decoration: none;
+    color: white;
+    padding-right: 1em;
+}
+
+.navbar{
+    background-color: #281e5a;
+    color: white;
+}
+
+.navbar .logo{
+    padding: 1em;
+    width: 15em;
+}
+
+.navbar .category{
+    padding: 0.5em;
+}
+
+.navbar .right-area{
+    width: 60em;
+}
+
+.navbar .search-box{
+
+}
+
+.navbar input{
+    border: white;
+    border-radius: 5px;
+    padding: 1em 2em;
+    width: 25em;
+    font-size: medium;
+    color: navy;
+}
+
+.navbar input:focus{
+    outline: none;
+}
+
+.input-wrapper {
+    display:inline-block;
+    position: relative
+}
+
+.input-wrapper:after {
+    color: grey;
+    content: "\f002";
+    font-family: "Font Awesome 5 Pro";
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    font-weight: 900;
+} 
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.content{
+    margin: 1em 0;;
+}
+
+.see-more{
+    text-decoration: none;
+    color: red;
+    padding-right: 1em;
+}
+
+.carousel-area{
+}
+
+.carousel-item{
+    border: none;
+    border-radius: 5px;
+}
+
+.other-item{
+    border: none;
+    border-radius: 5px;
+}
+
+.object-cover{
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;
+    height: 95%;
+    width: 98%;
+    object-fit: cover;
+}
+
+.produk-item{
+    /* height: 100%; */
+    width: 100%;
+}
+
+.paragraph{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    /* padding-left: 1em; */
+}
+
+.book-container{
+    height: 280px;
+    width: 95%;
+    border: 1px solid lightgray;
+}
+
+.book-cover{
+    width: 100%;
+    object-fit: contain;
+}
+
+.title-container{
+    height: 70px;
+}
+
+.border-btm{ /* menggantikan hr */
+    border-bottom: 1px solid lightgray;
+}
+
+.follow-area{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    background-color: lightgray;
+}
+
+.follow-area .paragraph{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.follow-area input{
+    font-size: medium;
+    padding: 0.7em 1em;
+    border: 1px solid lightgray;
+    width: 30em;
+    border-radius: 3px;
+}
+
+.register-button{
+    color: white;
+    width: 6em;
+    margin: 0 5px;
+    border: 0.5px solid navy;
+    background-color: #201848;
+    border-radius: 3px;
+    outline: none;
+}
+
+.register-button:hover{
+    cursor: pointer;
+}
+
+.misc-area{
+    background-color: lightgrey;
+}
+
+.misc-area a{
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.misc-area a p{
+    color: gray;
+}
+
+.misc-area p{
+    color: navy;
+    font-weight: 100;
+}
+
+.misc-title-container{
+    height: 30px;
+}
+
+.copyright-area{
+    padding: 10px 0;
+    color: white;
+    background-color: #201848;
+}
+
+/* TIMO */
+
+body{
+    margin: 0vw auto;
+    overflow-x: hidden;
+    /* width: auto; */
+}
+
+
+.about-wrapper{
+    padding: 5vh 10vw;
+}
+
+.flex{
+    display: flex;
+}
+
+.column{
+    flex-flow: column;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+.center{
+    justify-content: center;
+    align-items: center;
+}
+.banner{
+    height: 70vh;
+    background-image: url("../img/about-us-bg.png");
+    background-size: 100vw ;
+}
+.about-us-title{
+    font-size: 10vw;
+    
+}
+
+.logo-banner-about-us{
+    background-image: url("../img/kyamedia-icon.png");
+    width: 70vw;
+    height: 30vh;
+    background-size: 70vw;
+    background-repeat: no-repeat;
+}
+
+.about-wrapper{
+    width: 100vw;
+    height: 70vh;
+}
+
+.vertical-line{
+    border-left: 0.5vw solid rgb(40, 30, 90);
+    height: auto;
+    width: 10vw;
+}
+
+.navigate-content{
+    width: 20vw;
+}
+
+.about-button{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-size: 2vw;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    padding: 1vw;
+}
+
+.about-button:hover{
+    cursor: pointer;
+    background-color: rgb(40, 30, 90);
+    color: white;
+}
+
+.about-title{
+    font-size: 4vw;
+}
+
+.about{
+    padding-left: 3vw;
+    width: 60vw;
+}
+
+.about-isi{
+    margin-top: 5vh;
+    font-size: 3vw;
+    word-wrap: normal;
+}
+
+.mobile{
+    display: none;
+}
+
+@media only screen and (max-width: 799px){
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: flex;
+    }
+    .banner{
+        height: 20vh;
+        justify-content:center;
+        align-items: center;
+    }
+    .logo-banner-about-us{
+        height: 50%;
+    }
+    .vertical-line{
+        border-left: 0 black solid;
+        padding: 0;
+        height: auto;
+    }
+    .about{
+        width:80vw;
+        
+    }
+    .about-wrapper{
+        margin: 0 auto;
+    }
+    .about-title{
+        margin-top: 2vh;
+    }
+    .about-isi{
+        margin-top: 1vh;
+        text-align: justify;
+    }
+    .hl{
+        border-top: 0.3vh solid black;
+        margin-top: 2vh;
+    }
+    .about-wrapper{
+        height: auto;
+    }
+}
+
+/* book */
+
+.book-body-wrapper{
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.book-list{
+    justify-content: space-between;
+    flex-flow: row;
+}
+
+.book-img-container{
+    width: 10vw;
+    height: 30vh;
+}
+
+.book-img-container *{
+    object-fit: cover;
+}
+
+@media (max-width:799px){
+    .book-list{
+        flex-flow: column;
+    }
+}
+
+
+/* Grid System */
+.container{
+    height: 336px;
+}
+
+.container1{
+    height: 150px;
+}
+
+.container2{
+    height: 550px;
+}
+
+.container3{
+    height: 200px;
+}
+
+.container4{
+    height: 300px;
+}
+
+.container5{
+    height: 230px;
+}
+
+.six-col-grid{
+    width: 100%;
+}
+
+.six-col-grid .grid-item-onehalf{
+    height: 100%;
+    width: 21.5%;
+}
+
+.six-col-grid .grid-item-one{
+    height: 100%;
+    width: 15%;
+}
+
+.six-col-grid .grid-item-two{
+    height: 100%;
+    width: 33.333%;
+    /* penanda sementara */
+    /* background-color: green; */
+}
+
+.six-col-grid .grid-item-three{
+    height: 100%;
+    width: 50%;
+}
+
+.six-col-grid .grid-item-four{
+    height: 100%;
+    width: 66.666%;
+    /* penanda sementara */
+    /* background-color: red; */
+}
+
+.six-col-grid .grid-item-five{
+    height: 100%;
+    width: 83.333%;
+}
+
+.six-col-grid .grid-item-six{
+    height: 100%;
+    width: 100%;
+}
+
+.six-col-grid .grid-item-hhalf{ /* h artinya height */
+    height: 50%;
+}
+
+.six-col-grid .grid-item-hquarter{
+    height: 25%;
+}
+
+.eight-col-grid{
+    margin: 25px 0;
+    width: 100%;
+}
+
+.eight-col-grid .grid-item-one{
+    width: 10%;
+}
+
+/* BASE */
+
+.pad-left-right{
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-right{
+    margin-left: auto;
+}
+
+.justify-evenly{
+    justify-content: space-evenly;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.color-navy{
+    color: navy;
+}
+
+.color-red{
+    color: red;
+}
+
+.color-grey{
+    color: gray;
+}
+
+.width-max{
+    width: 100%;
+}
+
+#regist {
+    padding:5vh 2vw;
+    width: 50vw;
+    background-color:rgba(25,18,56,0.5);
+    color: #fff;
+    font-size:1.25em;
+}
+
+#regist label{
+    font-weight:bold;
+    font-size:1.25em;
+}
+
+#regist .row-input{
+    margin-bottom:5vh;
+    width:100%;
+}
+
+#regist .row-input:last-child{
+    margin-bottom:0;
+}
+
+#regist input{
+    width:100%;
+}
+
+#regist input[type=checkbox]{
+    width:auto !important;
+    margin:1vh 1vw;
+}
+
+#regist .inline-input{
+    display:flex;
+}
+
+#regist .inline-input .line{
+    flex:50%;
+    margin-right:2vw;
+}
+
+#regist .inline-input .line:last-child{
+    margin-right:0 !important;
+}
+
+#regist input, #regist select{
+    color:#fff;
+    margin-top:2vh;
+    padding:1vh 1vw;
+    box-sizing: border-box;
+    background:none;
+    border:none;
+    border-bottom:2px solid #201848;
+}
+
+#regist option{
+    background:#281e5a;
+    margin:1vh 1vw;
+}
+
+#regist input::placeholder{
+    color:#eee;
+}
+
+#regist button[type=submit]{
+    background:#201848;
+    border:none;
+    color:#FFF;
+    padding:2vh 2vw;
+    width:100%;
+    cursor:pointer;
+    font-size:1.25em;
+}
+
+#regist input[type=date]::-webkit-inner-spin-button, 
+#regist input[type=date]::-webkit-clear-button { 
+    display: none;
+}
+
+#regist input[type=date]::-webkit-calendar-picker-indicator{
+    background:none;
+}
+
+#regist input[type=date]{
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+input[type=date], focus {
+    background:none;
+}
