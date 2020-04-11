@@ -81,8 +81,9 @@ function tryGetItem(){
     for(var i=0;i<row.length;i++){
         for(var j=0;j<row[i].children.length;j++){
             let item = row[i].children[j];
+            // item.appendChild(document.createElement("p").appendChild(document.createTextNode("File Format: PDF")))
             item.children[0].children[0].src = "./assets/img/book-item-"+(x+1)+".jpg"; 
-            item.children[1].children[0].innerHTML = juduls[x];
+            item.children[1].children[0].innerHTML = juduls[x] + "(PDF)";
             item.children[2].innerHTML = authors[x]; 
             item.children[3].innerHTML = prices[x];
             x+=1;
